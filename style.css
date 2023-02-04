@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.container {
+  width: 16rem;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.display-input {
+  border: 1px solid black;
+  height: 5rem;
+  margin: 7px;
+  position: relative;
+}
+
+input[type="text"] {
+ border: none;
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.calc {
+  font-size: 2rem;
+  bottom: 0;
+  right: 0;
+}
+
+.result {
+  font-size: 1.5rem;
+}
+
+.control {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.button {
+  height: 3rem;
+  width: 3rem;
+  box-sizing: border-box;
+  margin: 7px;
+  font-size: 1.2rem;
+}
