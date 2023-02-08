@@ -14,34 +14,37 @@ body {
 .display-input {
   border: 1px solid black;
   height: 5rem;
-  margin: 7px;
   position: relative;
+  margin-bottom: 5px;
 }
 
-input[type="text"] {
- border: none;
+input {
+  border: none;
   width: 100%;
   text-align: right;
+  padding-right: 1rem;
   box-sizing: border-box;
 }
 
-.calc {
+.first-input {
   font-size: 2rem;
+  margin-top: 5px;
   bottom: 0;
   right: 0;
 }
 
-.result {
-  font-size: 1.5rem;
+.second-input {
+  font-size: 1.4rem;
 }
 
 .control {
   display: flex;
-  flex: 1;
   flex-wrap: wrap;
+  border: 1px solid black;
+  justify-content: center;
 }
 
-.button {
+button {
   height: 3rem;
   width: 3rem;
   box-sizing: border-box;

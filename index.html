@@ -9,14 +9,14 @@
   <body>
     <div class="container">
       <section class="display-input">
-      <input type="text" class="calc" name="text" id="calc" value="0" readonly>
-      <input type="text" class="result" name="text" id="result" value="0" readonly>
+      <input type="text" class="first-input" name="text" id="first" value="" readonly>
+      <input type="text" class="second-input" name="text" id="second" value="" readonly>
       </section>
 
       <section class="control">
-        <button class="button ops" type="button">C</button>
+        <button class="button" type="button" id="clear-btn">C</button>
         <button class="button ops" type="button" data-value="%">%</button>
-        <button class="button" type="button">del</button>
+        <button class="button" type="button" id="del-btn">del</button>
         <button class="button" type="button" data-value="/">/</button>
         <button class="button" type="button" data-value="7">7</button>
         <button class="button" type="button" data-value="8">8</button>
@@ -32,8 +32,8 @@
         <button class="button ops" type="button" data-value="+">+</button>
         <button class="button" type="button" data-value="0">0</button>
         <button class="button" type="button" data-value="00">00</button>
-        <button class="button" type="button" data-value=",">,</button>
-        <button class="button ops" type="button">=</button>
+        <button class="button" type="button" data-value=".">,</button>
+        <button class="button ops" type="button" id="equal-btn">=</button>
       </section>
     </div>
     <script src="script.js"></script>
